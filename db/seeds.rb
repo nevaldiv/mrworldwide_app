@@ -13,5 +13,6 @@ Video.create(
   title:            "Give Me Everything",
   album:            "Planet Pit",
   featured_artists: "Ne-Yo, Afrojack, Nayer",
-  released_on:      Date.parse("6-5-2011")
+  released_on:      Date.parse("6-5-2011"),
+  tags:             "#dale"
   )
