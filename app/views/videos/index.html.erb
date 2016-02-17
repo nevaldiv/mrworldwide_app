@@ -1,9 +1,13 @@
+
 <header>
   <h1>Mr. Worldwide</h1>
   <h3>Dale!</h3>
 </header>
 <main>
-  <article>
-    Video goes here!
-  </article>
+  <% @videos.each do |stuff| %>
+    <article>
+      Video goes here!
+      <%= stuff.title %>
+    </article>
+  <% end %>
 </main>
