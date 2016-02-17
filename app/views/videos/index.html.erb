@@ -6,8 +6,10 @@
 <main>
   <% @videos.each do |stuff| %>
     <article>
-      Video goes here!
-      <%= stuff.title %>
+
+      <%= link_to stuff.title, stuff.youtube_link %>
+      <%= raw stuff.embed %>
+
     </article>
   <% end %>
 </main>
